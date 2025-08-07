@@ -125,6 +125,6 @@ question_bank = [
     {"question": "The output of the code below is\nc<-0\ncat(switch(c, ’red’, ’green’, ’blue’))",
      "options": ["A) red", "B) green", "C) blue", "D) No output"], "answer": [4], "is_multiple": False},
 
-    {"question": "i <- factorial(4)\nrepeat {\n  i<-i-2^3\n  if(i<15) {break}\n}\ncat(i)",
+    {"question": "The output of the code below is \nn i <- factorial(4)\nrepeat {\n  i<-i-2^3\n  if(i<15) {break}\n}\ncat(i)",
      "options": ["A) 8", "B) 16", "C) 32"], "answer": [1], "is_multiple": False}
 ]

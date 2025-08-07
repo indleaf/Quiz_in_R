@@ -86,7 +86,7 @@ question_bank = [
      "options": ["A) Two", "B) three", "C) four"], "answer": [3], "is_multiple": False},
 
     # Q36–Q40
-    {"question": "The outcome of the function below is \nmedian(0:5)",
+    {"question": "The outcome of the function below is \n median(0:5)",
      "options": ["A) 2", "B) 2.5", "C) 3"], "answer": [2], "is_multiple": False},
     {"question": "In ggplot2 the function that requires the x axis to be a categorical variable is",
      "options": ["A) geom_histogram()", "B) geom_bar()", "C) geom_freqpoly()"], "answer": [2], "is_multiple": False},

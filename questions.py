@@ -31,7 +31,7 @@ question_bank = [
     {"question": "The number of edges of the graph is two. [Picture1.png]",
      "options": ["True", "False"], "answer": [2], "is_multiple": False, "image": "Picture1.png"},
     {"question": "The outcome of the expression below is FALSE\n2^4-1 >15",
-     "options": ["True", "False"], "answer": [2], "is_multiple": False},
+     "options": ["True", "False"], "answer": [1], "is_multiple": False},
     {"question": "In a graph database relationships are represented by edges between vertices.",
      "options": ["True", "False"], "answer": [1], "is_multiple": False},
 
@@ -49,7 +49,7 @@ question_bank = [
 
     # Q21–Q25
     {"question": "In R a dataframe is a set of vectors of different data types",
-     "options": ["True", "False"], "answer": [2], "is_multiple": False},
+     "options": ["True", "False"], "answer": [1], "is_multiple": False},
     {"question": "A dataset is said to be tidy if each variable has its own column and each observation has its own row.",
      "options": ["True", "False"], "answer": [1], "is_multiple": False},
     {"question": "In R a matrix is a one-dimensional array that has elements of the same data type.",
@@ -66,7 +66,7 @@ question_bank = [
      "options": ["A) One time", "B) two times", "C) three times"], "answer": [2], "is_multiple": False},
     {"question": "The degree of the node below is [Picture3.png]",
      "options": ["A) One", "B) Two", "C) Three"], "answer": [2], "is_multiple": False, "image": "Picture3.png"},
-    {"question": "The output of the code below is\nResult <- function(n=99) { Return(n%%2) }\ncat(result()^99)",
+    {"question": "The output of the code below is\nResult <- function(n=99) { \nreturn(n%%2) }\ncat(result()^99)",
      "options": ["A) 0", "B) 1", "C) 99"], "answer": [2], "is_multiple": False},
     {"question": "The loop below will iterate\ni <- 12\nrepeat(\n    i <- i-4\n    if(i < 3) {break})",
      "options": ["A) one times", "B) two times", "C) three times"], "answer": [3], "is_multiple": False},
@@ -93,7 +93,7 @@ question_bank = [
     {"question": "In a graph network a___ is a path that starts and ends at the same vertex",
      "options": ["A) cycle", "B) path", "C) loop"], "answer": [1], "is_multiple": False},
     {"question": "A_____ in R is made of vectors having different data types",
-     "options": ["A) matrix", "B) data frame", "C) list"], "answer": [3], "is_multiple": False},
+     "options": ["A) matrix", "B) data frame", "C) list"], "answer": [2], "is_multiple": False},
     {"question": "The R data type used to enable an object to store a Boolean value is",
      "options": ["A) Integer", "B) numeric", "C) logical"], "answer": [3], "is_multiple": False},
 
@@ -117,7 +117,7 @@ question_bank = [
      "options": ["A) dplyr", "B) tibble", "C) readr"], "answer": [1], "is_multiple": False},
 
     {"question": "The output of the code below is\nn <- 1:4\nresult <- ifelse(n%% 2==1, ‘odd’, ‘even’)\ncat(result)",
-     "options": ["A) odd even odd even", "B) even odd even odd", "C) odd even odd odd"], "answer": [2], "is_multiple": False},
+     "options": ["A) odd even odd even", "B) even odd even odd", "C) odd even odd odd"], "answer": [1], "is_multiple": False},
 
     {"question": "Consider the code below\nv1<- c(2,1,1,3,2,1,0)\nv2<-c(3,8,2,2,0,0,0)\nif(v1[1]>=2 && v2[7] >v1[7]) {cat(‘Hello’)}",
      "options": ["True", "False"], "answer": [2], "is_multiple": False},
